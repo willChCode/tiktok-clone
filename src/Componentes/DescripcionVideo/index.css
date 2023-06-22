@@ -1,0 +1,7 @@
+.sec-data {
+  position: absolute;
+  bottom: 40px;
+  padding: 0 10px;
+  color: white;
+  background-color: RGBA(93, 90, 90, 0.1);
+}

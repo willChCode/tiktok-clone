@@ -1,0 +1,24 @@
+.section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid black;
+
+  scroll-snap-align: center;
+}
+video {
+  width: 100%;
+  height: 100%; /*problema con 100%*/
+  background-image: url(./../../assets/backgroundC.jpg);
+}
+.iconPlay {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+.pause {
+  opacity: 0;
+  /* display: none; */
+}
